@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benbrika Abderhman | Trader & Social Media Manager & Developer</title>
+    <meta name="description"
+        content="Benbrika Abderhman - Professional portfolio showcasing expertise in trading, social media management, and programming">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">◈</span>
+                <span class="logo-text">BENBRIKA ABDERHMAN</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-i18n="nav_home">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="nav_about">من أنا</a></li>
+                <li><a href="#services" class="nav-link" data-i18n="nav_services">خدماتي</a></li>
+                <li><a href="#portfolio" class="nav-link" data-i18n="nav_portfolio">أعمالي</a></li>
+                <li><a href="#stats" class="nav-link" data-i18n="nav_stats">إنجازاتي</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="nav_contact">تواصل معي</a></li>
+            </ul>
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="ar" title="العربية">AR</button>
+                <button class="lang-btn" data-lang="en" title="English">EN</button>
+                <button class="lang-btn" data-lang="fr" title="Français">FR</button>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="badge-icon">✦</span>
+                    <span data-i18n="hero_badge">متخصص في التداول وإدارة السوشيال ميديا والبرمجة</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line" data-i18n="hero_title_1">أحول الأفكار إلى</span>
+                    <span class="title-highlight" data-i18n="hero_title_2">نتائج استثنائية</span>
+                </h1>
+                <p class="hero-description" data-i18n="hero_description">
+                    خبرة متميزة في أسواق المال والتداول، مع إبداع في إدارة منصات التواصل الاجتماعي.
+                    أساعدك على تحقيق أهدافك المالية وبناء حضور رقمي قوي.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span data-i18n="hero_btn_start">ابدأ الآن</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <span data-i18n="hero_btn_work">شاهد أعمالي</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card main-card">
+                    <div class="card-glow"></div>
+                    <div class="profile-image">
+                        <div class="image-placeholder">
+                            <span>BA</span>
+                        </div>
+                    </div>
+                    <div class="floating-stats">
+                        <div class="stat-card stat-1">
+                            <div class="stat-icon">📈</div>
+                            <div class="stat-info">
+                                <span class="stat-value">+85%</span>
+                                <span class="stat-label" data-i18n="stat_success">نسبة النجاح</span>
+                            </div>
+                        </div>
+                        <div class="stat-card stat-2">
+                            <div class="stat-icon">👥</div>
+                            <div class="stat-info">
+                                <span class="stat-value">500K+</span>
+                                <span class="stat-label" data-i18n="stat_followers">متابع</span>
+                            </div>
+                        </div>
+                        <div class="stat-card stat-3">
+                            <div class="stat-icon">⭐</div>
+                            <div class="stat-info">
+                                <span class="stat-value">150+</span>
+                                <span class="stat-label" data-i18n="stat_clients">عميل راضي</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span data-i18n="scroll_more">اكتشف المزيد</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="about_tag">من أنا</span>
+                <h2 class="section-title" data-i18n="about_title">شغف بالتميز والإبداع</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro" data-i18n="about_intro" data-i18n-html="true">
+                        مرحباً! أنا <strong>Benbrika Abderhman</strong>، متخصص في عالم <strong>التداول</strong>
+                        و<strong>إدارة السوشيال ميديا</strong> و<strong>البرمجة</strong>،
+                        أجمع بين التحليل الدقيق للأسواق المالية والإبداع في صناعة المحتوى وتطوير المواقع.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-card">
+                            <div class="detail-icon">📊</div>
+                            <h3 data-i18n="about_trading_title">خبرة في التداول</h3>
+                            <p data-i18n="about_trading_desc">أكثر من 5 سنوات في تحليل الأسواق والعملات الرقمية وUS30
+                            </p>
+                        </div>
+                        <div class="detail-card">
+                            <div class="detail-icon">💻</div>
+                            <h3 data-i18n="about_dev_title">مطور برمجيات</h3>
+                            <p data-i18n="about_dev_desc">خبرة في Front-end Development و C++ Programming</p>
+                        </div>
+                        <div class="detail-card">
+                            <div class="detail-icon">📱</div>
+                            <h3 data-i18n="about_social_title">إدارة السوشيال ميديا</h3>
+                            <p data-i18n="about_social_desc">بناء حضور رقمي قوي وزيادة التفاعل والمتابعين</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-wrapper">
+                    <h3 class="skills-title" data-i18n="skills_title">مهاراتي</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span data-i18n="skill_technical">التحليل الفني</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span data-i18n="skill_frontend">Front-end Development</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span data-i18n="skill_cpp">C++ Programming</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span data-i18n="skill_social">إدارة السوشيال ميديا</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="services_tag">خدماتي</span>
+                <h2 class="section-title" data-i18n="services_title">ما أقدمه لك</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 3v18h18" />
+                            <path d="M7 14l4-4 4 4 5-5" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service_1_title">تحليل الأسواق</h3>
+                    <p data-i18n="service_1_desc">تحليل فني ومالي دقيق للأسواق المالية والعملات الرقمية مع توصيات يومية
+                    </p>
+                    <ul class="service-features">
+                        <li data-i18n="service_1_feature_1">تحليل يومي للأسواق</li>
+                        <li data-i18n="service_1_feature_2">توصيات دخول وخروج</li>
+                        <li data-i18n="service_1_feature_3">إدارة المحفظة</li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="service_link">اطلب الخدمة ←</a>
+                </div>
+                <div class="service-card featured">
+                    <div class="featured-badge" data-i18n="featured_badge">الأكثر طلباً</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service_2_title">تعليم التداول</h3>
+                    <p data-i18n="service_2_desc">دورات وتدريب شخصي لتعلم أساسيات واحتراف التداول من الصفر</p>
+                    <ul class="service-features">
+                        <li data-i18n="service_2_feature_1">دورات مسجلة وحية</li>
+                        <li data-i18n="service_2_feature_2">متابعة شخصية</li>
+                        <li data-i18n="service_2_feature_3">مجتمع خاص للمتداولين</li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="service_link">اطلب الخدمة ←</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" />
+                            <path d="M8 21h8" />
+                            <path d="M12 17v4" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service_3_title">إدارة السوشيال ميديا</h3>
+                    <p data-i18n="service_3_desc">إدارة كاملة لحساباتك على منصات التواصل مع استراتيجية نمو مدروسة</p>
+                    <ul class="service-features">
+                        <li data-i18n="service_3_feature_1">جدولة المنشورات</li>
+                        <li data-i18n="service_3_feature_2">تصميم المحتوى</li>
+                        <li data-i18n="service_3_feature_3">تحليل الأداء</li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="service_link">اطلب الخدمة ←</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service_4_title">استشارات مالية</h3>
+                    <p data-i18n="service_4_desc">جلسات استشارية خاصة لتحسين أدائك في التداول وبناء محفظة استثمارية</p>
+                    <ul class="service-features">
+                        <li data-i18n="service_4_feature_1">تقييم المحفظة</li>
+                        <li data-i18n="service_4_feature_2">خطة استثمارية</li>
+                        <li data-i18n="service_4_feature_3">متابعة دورية</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                            <path d="M2 2l7.586 7.586"></path>
+                            <circle cx="11" cy="11" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="service_new_title">بناء المواقع الإلكترونية</h3>
+                    <p data-i18n="service_new_desc">تصميم وتطوير مواقع ويب سريعة، جذابة، ومتجاوبة مع جميع الأجهزة بأحدث
+                        التقنيات</p>
+                    <ul class="service-features">
+                        <li data-i18n="service_new_feature_1">تصميم عصري وجذاب</li>
+                        <li data-i18n="service_new_feature_2">تطوير شامل (Full-stack)</li>
+                        <li data-i18n="service_new_feature_3">سرعة وأداء عالي</li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="service_link">اطلب الخدمة ←</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="portfolio_tag">أعمالي</span>
+                <h2 class="section-title" data-i18n="portfolio_title">نماذج من إنجازاتي</h2>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter_all">الكل</button>
+                <button class="filter-btn" data-filter="trading" data-i18n="filter_trading">التداول</button>
+                <button class="filter-btn" data-filter="social" data-i18n="filter_social">السوشيال ميديا</button>
+                <button class="filter-btn" data-filter="content" data-i18n="filter_content">المحتوى</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- BTC Chart -->
+                <div class="portfolio-item" data-category="trading">
+                    <div class="portfolio-image chart-container"
+                        onclick="openChartModal('BINANCE:BTCUSDT', 'تحليل Bitcoin')">
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container" style="height:100%;width:100%">
+                            <div id="btc-chart-widget" style="height:100%;width:100%"></div>
+                        </div>
+                        <div class="chart-label">
+                            <span class="chart-symbol">BTC/USDT</span>
+                            <span class="chart-expand">🔍 اضغط للتكبير</span>
+                        </div>
+                        <div class="chart-click-layer"></div>
+                        <div class="image-overlay">
+                            <span class="portfolio-category" data-i18n="portfolio_trading">تداول</span>
+                            <h3 data-i18n="portfolio_btc_title">تحليل Bitcoin</h3>
+                            <p data-i18n="portfolio_btc_desc">توقع دقيق لحركة BTC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item large" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/social_media_growth.png" alt="Social Media Growth Strategy">
+                        <div class="image-overlay">
+                            <span class="portfolio-category" data-i18n="portfolio_social">سوشيال ميديا</span>
+                            <h3 data-i18n="portfolio_campaign_title">حملة تسويقية ناجحة</h3>
+                            <p data-i18n="portfolio_campaign_desc">نمو 300% في التفاعل خلال 3 أشهر</p>
+                            <a href="https://www.instagram.com/_benb__abdou_/" class="portfolio-link" target="_blank"
+                                data-i18n="portfolio_view">شاهد التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="content">
+                    <div class="portfolio-image">
+                        <img src="images/frontend_project.png" alt="Front-end Development Project">
+                        <div class="image-overlay">
+                            <span class="portfolio-category" data-i18n="portfolio_programming">برمجة</span>
+                            <h3 data-i18n="portfolio_frontend_title">مشاريع Front-end</h3>
+                            <p data-i18n="portfolio_frontend_desc">تطوير مواقع ويب احترافية</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- US30 Chart -->
+                <div class="portfolio-item" data-category="trading">
+                    <div class="portfolio-image chart-container" onclick="openChartModal('FOREXCOM:DJI', 'تحليل US30')">
+                        <!-- TradingView Widget BEGIN -->
+                        <div class="tradingview-widget-container" style="height:100%;width:100%">
+                            <div id="us30-chart-widget" style="height:100%;width:100%"></div>
+                        </div>
+                        <div class="chart-label">
+                            <span class="chart-symbol">US30</span>
+                            <span class="chart-expand">🔍 اضغط للتكبير</span>
+                        </div>
+                        <div class="chart-click-layer"></div>
+                        <div class="image-overlay">
+                            <span class="portfolio-category" data-i18n="portfolio_trading">تداول</span>
+                            <h3 data-i18n="portfolio_us30_title">تحليل US30</h3>
+                            <p data-i18n="portfolio_us30_desc">صفقات ناجحة متتالية</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <img src="images/instagram_management.png" alt="Instagram Profile Management">
+                        <div class="image-overlay">
+                            <span class="portfolio-category" data-i18n="portfolio_social">سوشيال ميديا</span>
+                            <h3 data-i18n="portfolio_instagram_title">إدارة حساب Instagram</h3>
+                            <p data-i18n="portfolio_instagram_desc">بناء مجتمع قوي ومتفاعل</p>
+                            <a href="https://www.instagram.com/_benb__abdou_/" class="portfolio-link" target="_blank"
+                                data-i18n="portfolio_view">شاهد التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item large" data-category="content">
+                    <div class="portfolio-image">
+                        <img src="images/trading_course.png" alt="Trading Course">
+                        <div class="image-overlay">
+                            <span class="portfolio-category" data-i18n="portfolio_education">تعليم</span>
+                            <h3 data-i18n="portfolio_course_title">دورة التداول الاحترافية</h3>
+                            <p data-i18n="portfolio_course_desc">تدريب 500+ متداول على استراتيجيات US30 و BTC</p>
+                            <a href="https://t.me/full_trading_learn" class="portfolio-link" target="_blank"
+                                data-i18n="portfolio_join">انضم
+                                الآن</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-text" data-i18n="stat_trades">صفقة ناجحة</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-text" data-i18n="stat_happy_clients">عميل راضي</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" data-count="85">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-text" data-i18n="stat_success_rate">نسبة النجاح</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number" data-count="5">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-text" data-i18n="stat_experience">سنوات خبرة</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="testimonials_tag">آراء العملاء</span>
+                <h2 class="section-title" data-i18n="testimonials_title">ماذا قالوا عني</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p data-i18n="testimonial_1">خبرة رائعة في التداول، ساعدني على تحقيق أرباح ممتازة خلال فترة
+                            قصيرة. أنصح به بشدة!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">أ</div>
+                        <div class="author-info">
+                            <h4 data-i18n="testimonial_1_name">أحمد محمد</h4>
+                            <span data-i18n="testimonial_1_role">متداول</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p data-i18n="testimonial_2">إدارة احترافية لحسابات السوشيال ميديا، حققنا نمو كبير في المتابعين
+                            والتفاعل.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">س</div>
+                        <div class="author-info">
+                            <h4 data-i18n="testimonial_2_name">سارة علي</h4>
+                            <span data-i18n="testimonial_2_role">صاحبة متجر إلكتروني</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">"</div>
+                        <p data-i18n="testimonial_3">دورة التداول كانت شاملة ومفيدة جداً، أصبحت قادراً على التداول
+                            باحترافية.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">م</div>
+                        <div class="author-info">
+                            <h4 data-i18n="testimonial_3_name">محمد خالد</h4>
+                            <span data-i18n="testimonial_3_role">خريج الدورة</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="contact_tag">تواصل معي</span>
+                <h2 class="section-title" data-i18n="contact_title">دعنا نعمل معاً</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-i18n="contact_ready">مستعد للبدء؟</h3>
+                    <p data-i18n="contact_desc">تواصل معي الآن لمناقشة مشروعك أو للاستفسار عن خدماتي</p>
+                    <div class="contact-methods">
+                        <a href="mailto:benbabdou49@gmail.com" class="contact-method">
+                            <div class="method-icon">✉️</div>
+                            <div class="method-info">
+                                <span data-i18n="contact_email_label">البريد الإلكتروني</span>
+                                <strong>benbabdou49@gmail.com</strong>
+                            </div>
+                        </a>
+                        <a href="tel:+21367365991" class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-info">
+                                <span data-i18n="contact_phone_label">الهاتف</span>
+                                <strong>+213 673 65 99 16</strong>
+                            </div>
+                        </a>
+                        <a href="https://t.me/full_trading_learn" class="contact-method" target="_blank">
+                            <div class="method-icon">📲</div>
+                            <div class="method-info">
+                                <span data-i18n="contact_telegram_label">تيليجرام</span>
+                                <strong>@full_trading_learn</strong>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://x.com/BAbdou12345917" class="social-link" aria-label="X (Twitter)"
+                            target="_blank">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/_benb__abdou_/" class="social-link" aria-label="Instagram"
+                            target="_blank">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 1.802c-2.67 0-2.986.01-4.04.058-.976.045-1.505.207-1.858.344-.466.182-.8.398-1.15.748-.35.35-.566.684-.748 1.15-.137.353-.3.882-.344 1.857-.048 1.055-.058 1.37-.058 4.041 0 2.67.01 2.986.058 4.04.045.976.207 1.505.344 1.858.182.466.399.8.748 1.15.35.35.684.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058 2.67 0 2.987-.01 4.04-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.684.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041 0-2.67-.01-2.986-.058-4.04-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 0 0-.748-1.15 3.098 3.098 0 0 0-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.055-.048-1.37-.058-4.041-.058zm0 3.063a5.135 5.135 0 1 1 0 10.27 5.135 5.135 0 0 1 0-10.27zm0 8.468a3.333 3.333 0 1 0 0-6.666 3.333 3.333 0 0 0 0 6.666zm6.538-8.671a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z" />
+                            </svg>
+                        </a>
+                        <a href="mailto:benbabdou49@gmail.com" class="social-link" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                        </a>
+                        <a href="https://t.me/full_trading_learn" class="social-link" aria-label="Telegram"
+                            target="_blank">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name" data-i18n="form_name">الاسم الكامل</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email" data-i18n="form_email">البريد الإلكتروني</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected data-i18n="form_service_placeholder">اختر الخدمة</option>
+                            <option value="trading" data-i18n="form_service_1">تحليل الأسواق</option>
+                            <option value="education" data-i18n="form_service_2">تعليم التداول</option>
+                            <option value="social" data-i18n="form_service_3">إدارة السوشيال ميديا</option>
+                            <option value="consulting" data-i18n="form_service_4">استشارات مالية</option>
+                            <option value="other" data-i18n="form_service_5">أخرى</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message" data-i18n="form_message">رسالتك</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span data-i18n="form_submit">إرسال الرسالة</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">◈</span>
+                        <span class="logo-text">BENBRIKA ABDERHMAN</span>
+                    </a>
+                    <p data-i18n="footer_desc">متخصص في التداول وإدارة السوشيال ميديا والبرمجة</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" data-i18n="nav_home">الرئيسية</a>
+                    <a href="#about" data-i18n="nav_about">من أنا</a>
+                    <a href="#services" data-i18n="nav_services">خدماتي</a>
+                    <a href="#portfolio" data-i18n="nav_portfolio">أعمالي</a>
+                    <a href="#contact" data-i18n="nav_contact">تواصل</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_copyright">© 2024 Benbrika Abderhman. جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chart Modal -->
+    <div id="chartModal" class="chart-modal">
+        <div class="chart-modal-content">
+            <div class="chart-modal-header">
+                <h3 id="chartModalTitle">تحليل التشارت</h3>
+                <button class="chart-modal-close" onclick="closeChartModal()">×</button>
+            </div>
+            <div class="chart-modal-body" id="chartModalBody">
+                <!-- TradingView Widget will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
